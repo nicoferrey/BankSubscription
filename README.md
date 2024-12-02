@@ -1,3 +1,16 @@
+# **Predicción de Suscripción de Banco**
+En un entorno altamente competitivo, las instituciones financieras enfrentan el desafío constante de diseñar estrategias de marketing más efectivas para captar y retener clientes. En este contexto, el presente trabajo aborda un problema planteado por un banco particular, que busca predecir cuáles de sus clientes es más probable que se suscriban a una campaña de marketing específica. La capacidad de identificar de manera precisa a estos clientes permitirá optimizar los recursos, reducir costos y aumentar la efectividad de las campañas, generando un impacto positivo tanto en los ingresos del banco como en la satisfacción de los clientes.
+
+Para abordar este problema, se dispone de un conjunto de datos que comprende información de 45.211 clientes, descritos por 17 variables que reflejan características socioeconómicas, de comportamiento y de interacción con el banco.
+
+# **Archivos del Proyecto**
+- **clusterai_reporte_Ferreyra:** informe con los resultados principales del análisis
+- **clusterai_Nicolas_Ferreyra_eda:** análisis EDA sobre el dataset
+- **clusterai_Nicolas_Ferreyra_machine_learning:** implementación modelo de ML
+- **clusterai_Nicolas_Ferreyra_completo:** compilado completo del proyecto
+- **bank_subscription:** dataset empleado
+
+
 # **Estructura del Proyecto**
 
 ## **1. Exploración y Limpieza de Datos**
@@ -68,8 +81,8 @@ La sección de Machine Learning incluye la comparación de los modelos mencionad
 
 # **Resultados**
 ## **EDA:**
-*  Identificación de variables relevantes y posibles valores atípicos.
-*  Relación entre Pdays y Previous, analizada mediante gráficos y matriz de correlación.
+-  Identificación de variables relevantes y posibles valores atípicos.
+-  Relación entre Pdays y Previous, analizada mediante gráficos y matriz de correlación.
 ## **Modelos de Machine Learning:**
-*  Random Forest mostró el mejor rendimiento sin PCA.
-*  Igualmente todos los modelos tuvieron un rendimiento similar, pudiendo elegirse también otros modelos más sencillos
+-  Random Forest mostró el mejor rendimiento sin PCA.
+-  Igualmente todos los modelos tuvieron un rendimiento similar, pudiendo elegirse también otros modelos más sencillos
