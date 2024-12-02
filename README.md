@@ -22,7 +22,6 @@
 ## **4. Modelos de Machine Learning**
 Se implementaron y compararon los siguientes modelos:
 - **Random Forest**
-- **Support Vector Machine (SVM)**
 - **Logistic Regression**
 - **Red Neuronal (MLPClassifier)**
 
